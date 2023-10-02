@@ -1,0 +1,394 @@
+:root {
+    --pop:'Poppins', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+    line-height: 0.8;
+}
+
+/*-----------------------nav start-------------------*/
+#nav {
+    padding-top: 20px;
+    width: 100%;
+    left: 0;
+    top: 0px;
+    position: absolute;
+    z-index: 555;
+}
+.nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    column-gap: 20px;
+}
+.menu ul {
+    display: flex;
+    column-gap: 32px;
+}
+.menu ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-family: var(--pop);
+    font-weight: 500;
+    line-height: 28px;
+
+}
+.nav-btn a {
+    padding: 16px 48px;
+    border: 2px solid black;
+    color: #fff;
+    font-size: 16px;
+    font-family: var(--pop);
+    font-weight: 500;
+    line-height: 28px;
+    border-radius: 41px;
+}
+/*-----------------------nav end-------------------*/
+
+/*-----------------------banner start-------------------*/
+#banner {
+    background-color: #2D2F68;
+    padding-bottom: 128px;
+    padding-top: 218px;
+    
+}
+.banner-wrap {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    column-gap: 50px;
+}
+.build {
+    
+    font-size: 54px;
+    font-family: var(--pop);
+    font-weight: 600;
+    color: #fff;
+    line-height: 74px;
+    width: 582px;
+}
+.pera {
+    font-size: 18px;
+    font-family: var(--pop);
+    font-weight: 500;
+    color: #fff;
+    line-height:28px;
+    width: 582px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+.button-info {
+    display: flex;
+    column-gap: 40px;
+}
+.common-btn {
+    padding: 16px 48px;
+    border: 2px solid rgba(0, 0, 0, 0.341);
+    color: #010101;
+    font-size: 16px;
+    font-family: var(--pop);
+    font-weight: 500;
+    line-height: 28px;
+    border-radius: 41px;
+    background-color:#FCD980 ;
+    
+}
+.button-text {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    color: #fff;
+}
+.button-text p {
+    font-size: 18px;
+    font-family: var(--pop);
+    font-weight: 500;
+    color: #fff;
+    line-height:28px;
+
+}
+.bannertwo img {
+    width: 638px;
+    height: 360px;
+}
+/*-----------------------banner start-------------------*/
+
+/*-----------------------work start-------------------*/
+#work {
+    padding-top: 128px;
+}
+.work-wrap {
+    display: flex;
+    column-gap: 142px;
+}
+.how {
+    font-size: 48px;
+    font-family: var(--pop);
+    font-weight: 600;
+    color: #000000;
+    line-height:64px;
+    width: 405px;
+    padding-bottom: 16px;
+
+}
+.lorem {
+    font-size: 16px;
+    font-family: var(--pop);
+    font-weight: 400;
+    color: #000000;
+    line-height:28px;
+    width: 405px;
+    padding-bottom: 16px;
+}
+.work-text {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.work-text p {
+    font-size: 20px;
+    font-family: var(--pop);
+    font-weight: 400;
+    color: #2405F2;
+    line-height:28px
+}
+.worktwo {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    padding-bottom: 240px;
+}
+.box h3 {
+    font-size: 32px;
+    font-family: var(--pop);
+    font-weight: 500;
+    color: #000000;
+    padding-top: 16px;
+}
+.box p {
+    font-size: 16px;
+    font-family: var(--pop);
+    font-weight: 400;
+    color: #000000;
+    line-height:28px;
+    width: 303px;
+    padding-top: 9px;
+    
+}
+/*-----------------------work end-------------------*/
+
+/*-----------------------work end-------------------*/
+.view {
+    font-size: 48px;
+    font-family: var(--pop);
+    font-weight: 600;
+    color: #000000;
+    line-height:64px;
+    padding-bottom: 16px;
+    padding-bottom: 64px;
+}
+
+/*-----------------------work end-------------------*/
+
+/*-----------------------project end-------------------*/
+#project {
+    padding-bottom: 128px;
+}
+.project-wrap {
+    display: flex;
+    column-gap: 32px;
+}
+.small {
+    row-gap: 32px;
+}
+.hover img {
+    padding-top: 32px;
+}
+/*-----------------------project end-------------------*/
+
+/*-----------------------project end-------------------*/
+#design {
+    background-color: #ECECF1;
+}
+.Features {
+    font-size: 18px;
+    font-family: var(--pop);
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    padding-top: 128px;
+}
+.that {
+    width: 630px;
+    font-size: 48px;
+    font-family: var(--pop);
+    font-weight: 600;
+    color: #000000;
+    line-height:64px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 12px;
+    padding-bottom: 47px;
+}
+.design-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 32px;
+    justify-content: space-between;
+    padding-bottom: 125px;
+}
+.boxx {
+    background-color: #fff;
+    padding: 53px 32px  48px 48px;
+}
+.boxx i {
+    font-size: 35px;
+    padding-bottom: 20px;
+    color: blue;
+    
+   
+}
+.uses {
+    font-size: 20px;
+    font-family: var(--pop);
+    color: #000000;
+    font-weight: 500;
+}
+.euismod {
+    font-family: var(--pop);
+    font-size: 18px;
+    width: 324px;
+    padding-top: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    
+}
+/*-----------------------project end-------------------*/
+
+/*-----------------------What our clients-------------------*/
+#what {
+    padding-top: 130px;
+    padding-bottom: 110px;
+    border-bottom: 1px solid black;
+}
+.what-wrap {
+    display: flex;
+    column-gap: 110px;
+    justify-content: space-between;
+}
+.what {
+    width: 327px;
+    font-size: 33px;
+    font-family: var(--pop);
+    font-weight: 500;
+    color: #000000;
+    line-height: 44px;
+    padding-bottom: 12px;
+}
+.ipsum {
+    font-size: 16px;
+    font-family: var(--pop);
+    font-weight: 400;
+    color: #000000;
+    line-height: 24px;
+    width: 323px;
+}
+.whattwo h5 {
+    font-size: 30px;
+    width: 810px;
+    line-height: 42px;
+    padding-bottom: 48px;
+}
+/*-----------------------What our clients-------------------*/
+
+/*-----------------------question part-------------------*/
+#question {
+    padding-top: 100px;
+    padding-bottom: 128px;
+}
+.ask {
+    width: 328px;
+    font-size: 33px;
+    font-family: var(--pop);
+    font-weight: 500;
+    color: #000000;
+    line-height: 44px;
+    padding-bottom: 12px;
+}
+.contact {
+    font-size: 18px;
+    font-family: var(--pop);
+    font-weight: 400;
+    color: #3c1dc7;
+    line-height: 28px;
+    width: 220px;
+    padding-top: 15px;
+}
+.question-wrap {
+    display: flex;
+    column-gap: 109px;
+}
+
+.question2 {
+    display: flex;
+    column-gap: 55px;
+    
+    
+}
+.faq {
+    padding-bottom: 48px;
+    border-bottom: 1px solid black;
+}
+.one {
+    font-size: 20px;
+    font-family: var(--pop);
+    font-weight: 500;
+    color: #3c1dc7;
+}
+.howw {
+    font-size: 20px;
+    font-family: var(--pop);
+    font-weight: 500;
+    color: #000000;
+    padding-bottom: 20px;
+    
+}
+.dolor {
+    font-size: 16px;
+    font-family: var(--pop);
+    font-weight: 400;
+    color: #000000;
+    width: 624px;
+    line-height: 24px;
+    
+}
+.much {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+
+}
+/*-----------------------question part-------------------*/
+
+/*-----------------------question part-------------------*/
+
+
+/*-----------------------question part-------------------*/
